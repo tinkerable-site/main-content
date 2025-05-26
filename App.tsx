@@ -14,15 +14,6 @@ export const Demo = () => {
   )
 }
 
-export const getComponents = () => {
-  const components = {
-    em(properties) {
-      return <i style={{fontWeight: "bold", color: "red", ...(properties.style ?? {})}} {...properties} />
-    }
-  }
-  return components;
-}
-
 export const App = (): React.JSX.Element => {
 
   return (
