@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "rollup -c rollup.config.mjs"
+    "build": "rollup -c .tinkerable/rollup.config.mjs"
   },
   "dependencies": {
     "@chakra-ui/react": "3.17.0",

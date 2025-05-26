@@ -4,7 +4,7 @@ import postcss from 'rollup-plugin-postcss';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 
 const config = {
-  input: "src/index.tsx",
+  input: "index.tsx",
   external: ["@tinkerable/internal/v1", /node_modules/],
   output: {
     dir: "build"

@@ -1,5 +1,5 @@
-import TestMDX from './testmdx.mdx';
-import {StatefulComponent} from './StatefulComponent';
+import TestMDX from './src/testmdx.mdx';
+import {StatefulComponent} from './src/StatefulComponent';
 import {Path, withAsyncComponent} from '@tinkerable/internal/v1';
 import { Routes, Route, Link } from "react-router";
 import { Button, HStack } from "@chakra-ui/react"
