@@ -37,7 +37,7 @@ export const App = (): React.JSX.Element => {
 export function Index(): React.JSX.Element {
   const W = withAsyncComponent(
     // @ts-ignore
-    module.dynamicImport('./Wrapper')
+    module.dynamicImport('./src/Wrapper')
   );
   return <>
     <Demo />
