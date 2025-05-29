@@ -15,13 +15,12 @@ export const Demo = () => {
 }
 
 export const App = (): React.JSX.Element => {
-
+  console.log("Main-content App")
   return (
     <Routes>
       <Route index element={<Index />} />
-      <Route path="about" element={<div>About Page <Link to="/">Back</Link></div>} />
-      <Route path="contact" element={<div>Contact Page</div>} />
-      <Route path="p/*" element={<Path />} />
+      <Route path="/index.tsx" element={<Index />} />
+      <Route path="*" element={<Path />} />
     </Routes>);
 }
 

@@ -2,6 +2,7 @@
   "name": "@tinkerable/main-content",
   "version": "0.1.0",
   "private": true,
+  "main": "./index.tsx",
   "scripts": {
     "build": "rollup -c .tinkerable/rollup.config.mjs"
   },
@@ -12,7 +13,8 @@
     "@tinkerable/internal": "file:../sandpack-bundler/static/tinkerable-internal",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router": "7.5.3"
+    "react-router": "7.5.3",
+    "next-themes": "^0.4.6"
   },
   "devDependencies": {
     "@mdx-js/rollup": "^3.1.0",
